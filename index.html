@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My App for Images</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <br /><br />
+      <h1 class="text-center">Image Size Resizer</h1>
+      <br />
+      <form action="/processimage" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+          <input
+            type="file"
+            name="file"
+            multiple
+            required
+            class="form-control"
+          />
+        </div>
+        Choose Format:
+        <label class="radio-inline"
+          ><input type="radio" name="format" value="png" checked />png</label
+        >
+        <label class="radio-inline"
+          ><input type="radio" name="format" value="jpg" />jpg</label
+        >
+        <label class="radio-inline"
+          ><input type="radio" name="format" value="webp" />webp</label
+        >
+        <div class="form-group">
+          <label for="width">Width</label>
+          <input class="form-control" type="number" name="width" id="">
+        </div>
+        <div class="form-group">
+          <label for="height">Height</label>
+          <input class="form-control" type="number" name="height" id="">
+        </div>
+        <div class="form-group">
+          <button class="btn btn-primary btn-outline-secondary btn-lg ">Download</button>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</html>
