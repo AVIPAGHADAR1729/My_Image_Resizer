@@ -2,12 +2,12 @@
   "name": "MyWebApp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "devStart": "nodemon app.js"
   },
-  "engines" : { "node" : ">=0.12" } ,
+  "engines" : { "node" : "0.12" } ,
   "keywords": [],
   "author": "",
   "license": "ISC",
