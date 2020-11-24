@@ -81,9 +81,10 @@ app.post('/processimage',upload.single('file'),function(req,res){
      		console.log(dimensions)
      		width = parseInt(dimensions.width);
      		height = parseInt(dimensions.height);
+        processImage(width,height,req,res)
      	}
      	else{
-
+                processImage(width,height,req,res)
      	}
 
 
