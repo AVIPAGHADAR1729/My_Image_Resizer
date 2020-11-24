@@ -7,12 +7,12 @@
     "start": "node app.js",
     "devStart": "nodemon app.js"
   },
-  "engines" : { "node" : "0.12" } ,
+  "engines" : { "node" : "12.x" } ,
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^",
+    "express": "^4.17.1",
     "image-size": "^0.9.3",
     "multer": "^1.4.2",
     "nodemon": "^2.0.6",
