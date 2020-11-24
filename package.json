@@ -7,9 +7,10 @@
     "start": "node app.js",
     "devStart": "nodemon app.js"
   },
-  "engines" : { "node" : "12.x",
-                "npm"  : "6.x"
-   } ,
+  "engines": {
+    "node": "12.x",
+    "npm": "6.x"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
